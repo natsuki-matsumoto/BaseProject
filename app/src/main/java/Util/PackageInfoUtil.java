@@ -21,7 +21,7 @@ public final class PackageInfoUtil {
      * @return
      */
     public static List<ActivityInfo> getActivityInfoArray(@NonNull Context context) {
-        _CodeUtil.nonNull(new Object[] {context});
+        _CodeUtil.nonNull(new Object[]{context});
 
         List<ActivityInfo> retActivityInfoArray = new ArrayList<>();
 
