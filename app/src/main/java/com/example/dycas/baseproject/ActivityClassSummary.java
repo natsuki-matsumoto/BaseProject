@@ -6,10 +6,10 @@ package com.example.dycas.baseproject;
 public interface ActivityClassSummary {
 
     /** title */
-    String mActivityTitle = "no title";
+    static final String ACTIVITY_TITLE = "no title";
 
     /** 概要 */
-    String mActivityOutLine = "no out line";
+    static final String ACTIVITY_OUTLINE = "no out line";
 
     String getActivityTitle();
 

@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".BaseProjectActivity"
-            android:label="[Base*, Tips*]Activity classをList化">
+            android:name=".BaseProjectActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

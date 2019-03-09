@@ -18,7 +18,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import Util.LogUtil;
+import Temp.BaseActivity;
 import Util.ReflectionUtil;
 import Util.PackageInfoUtil;
 import Util._CodeUtil;
@@ -27,7 +27,7 @@ import Util._CodeUtil;
  * 単元ごとの先頭ActivityをList化.
  * 先頭Activityは、ActivityClassSummaryの実装が必要.
  */
-public class BaseProjectActivity extends AppCompatActivity {
+public class BaseProjectActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
